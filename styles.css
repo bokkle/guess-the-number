@@ -117,3 +117,25 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media (max-width: 500px) {
+  body {
+    overflow: hidden;
+  }
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .label-highscore {
+    margin-bottom: 40px;
+  }
+  .message {
+    margin-top: 40px;
+  }
+  .between {
+    display: none;
+  }
+}
